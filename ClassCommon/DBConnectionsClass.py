@@ -8,7 +8,7 @@ cx_Oracle.init_oracle_client(lib_dir=r"C:\Oracle\instantclient_19_14")
 
 class DBConnectionsClass:
 
-    # Creamos un nuevo objeto de tipo conexión.
+    # creamos un nuevo objeto de tipo conexión.
     def NewConnection():
 
         #archivo_excel = pd.read_excel('C:\Temp\python_oracle\ActiveDataCommon\COMMON\BBDD.xlsx')
