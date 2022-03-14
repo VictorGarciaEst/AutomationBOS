@@ -6,13 +6,13 @@ import pandas as pd
 cx_Oracle.init_oracle_client(lib_dir=r"C:\Oracle\instantclient_19_14")
 
 
-class DBConectionsClass:
+class DBConnectionsClass:
 
     # Creamos un nuevo objeto de tipo conexión.
     def NewConnection():
 
-        archivo_excel = pd.read_excel('C:\Temp\python_oracle\ActiveDataCommon\COMMON\BBDD.xlsx')
-        print(archivo_excel.columns)
+        #archivo_excel = pd.read_excel('C:\Temp\python_oracle\ActiveDataCommon\COMMON\BBDD.xlsx')
+        #print(archivo_excel.columns)
         
         host = '10.121.110.50'
         port = '1521'
