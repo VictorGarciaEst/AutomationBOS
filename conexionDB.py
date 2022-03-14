@@ -10,7 +10,7 @@ try:
     select = conn.cursor()
     registros =  select.execute('select * from lbj.cam_client_type')
 
-    print("CLITP_OID - CLITP_DESCRIPTION")
+    
     print("CLITP_OID - CLITP_DESCRIPTION")
     print("-----------------------------")
     for row in registros:
